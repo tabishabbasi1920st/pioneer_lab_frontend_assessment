@@ -3,6 +3,7 @@ import MarketOverview from "../components/MarketOverview";
 import WalletBalance from "../components/WalletBalance";
 import RecentPost from "../components/RecentPost";
 import Assets from "../components/Assets";
+import Population from "../components/Population";
 import { FaAngleDown } from "react-icons/fa";
 
 import {
@@ -29,6 +30,7 @@ const Home = () => {
         </CustomPara>
       </CustomContainer>
       <Assets />
+      <Population />
     </MainContainer>
   );
 };
