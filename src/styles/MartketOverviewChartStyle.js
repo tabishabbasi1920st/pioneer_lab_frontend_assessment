@@ -4,7 +4,6 @@ export const MainContainer = styled.div`
   /* border: 1px solid red; */
   width: 100%;
   height: 350px;
-  margin-top: 10px;
   background-color: #171717;
   border-radius: 10px;
   padding: 10px 5px 10px 5px;
@@ -12,7 +11,10 @@ export const MainContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 400px;
+  /* max-width: 400px; */
+  @media (min-width: 1025px) {
+    width: 44.5%;
+  }
 `;
 
 export const HeaderContainer = styled.div`
@@ -54,7 +56,6 @@ export const FooterContainer = styled.div`
   border-top: 1px solid #2f2f2f;
   /* border: 2px solid red; */
   padding-top: 10px;
-  padding-left: 10px;
   width: 100%;
   display: flex;
   justify-content: space-between;

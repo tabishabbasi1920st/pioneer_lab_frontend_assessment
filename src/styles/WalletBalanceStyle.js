@@ -3,16 +3,21 @@ import styled from "styled-components";
 export const MainContainer = styled.div`
   /* border: 2px solid red; */
   height: 350px;
-  width: 250px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 300px;
+  /* max-width: 300px; */
   padding: 10px 5px 10px 5px;
   background-color: #171717;
   border-radius: 10px;
-  margin-top: 10px;
+  @media (min-width:768px){
+    width:49.4%;
+  }
+  @media (min-width: 1025px) {
+    width: 26.6%;
+  }
 `;
 
 export const HeaderContainer = styled.div`

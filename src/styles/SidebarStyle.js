@@ -24,9 +24,10 @@ export const SidebarContainer = styled.div`
   width: ${(props) => (props.isOpen ? "200px" : "51px")};
   min-height: 100%;
   max-height: 100vh;
-  transition: all 0.1s ease-in-out;
+  transition: all .1s ease-in-out;
   border-radius: 5px;
   flex-shrink: 0;
+  /* display: none; */
 `;
 
 export const TopContainer = styled.div`
@@ -86,10 +87,10 @@ export const CustomInput = styled.input`
 `;
 
 export const Main = styled.main`
-  /* border: 2px solid blue; */
   flex-grow: 1;
   overflow-y: auto;
   overflow-x: hidden;
+  /* border:2px solid red; */
 `;
 
 export const Section = styled.section`
