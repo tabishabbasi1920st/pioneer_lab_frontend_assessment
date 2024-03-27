@@ -37,7 +37,7 @@ export const CustomButton = styled.button`
   width: 110px;
   border: none;
   background-color: #2ab42a;
-  color: #aae0a9;
+  color: #fff;
   font-weight: 500;
   border-radius: 2px;
   cursor: pointer;

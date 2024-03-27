@@ -88,7 +88,8 @@ export const CustomInput = styled.input`
 export const Main = styled.main`
   /* border: 2px solid blue; */
   flex-grow: 1;
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
 `;
 
 export const Section = styled.section`
