@@ -72,5 +72,6 @@ export const FooterContainer = styled.div`
     background-color: #2ab42a;
     color: #fff;
     border-radius: 2px;
+    cursor: pointer;
   }
 `;

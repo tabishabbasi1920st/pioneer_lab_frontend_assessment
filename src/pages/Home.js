@@ -4,6 +4,7 @@ import WalletBalance from "../components/WalletBalance";
 import RecentPost from "../components/RecentPost";
 import Assets from "../components/Assets";
 import Population from "../components/Population";
+import BitCoin from "../components/BitCoin";
 import { FaAngleDown } from "react-icons/fa";
 
 import {
@@ -31,6 +32,7 @@ const Home = () => {
       </CustomContainer>
       <Assets />
       <Population />
+      <BitCoin />
     </MainContainer>
   );
 };
